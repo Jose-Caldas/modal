@@ -1,3 +1,15 @@
+:root {
+  --title: #9298ad;
+  --subTitle: #636879;
+  --brown: #1b1d25;
+  --body: #22242c;
+
+  --dark: #16181f;
+  --cards: #71768c;
+  --pink: #c74063;
+  --red: #b02342;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +17,7 @@
 }
 
 body {
-  background: #22242c;
+  background: var(--body);
   font-family: "Mulish", sans-serif;
+  color: var(--subTitle);
 }
